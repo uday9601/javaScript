@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        background-color:rgb(245, 245, 245);
+        width: 1000px;
+    
+    }
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+.nav button{
+    padding: 30px;
+    translate: 100px;
+    border: none;
+    background-color:rgba(245, 245, 245, 0.099);
+}
+.nav button:hover{
+    background-color: blue;
+    color: white;
+}
+.user {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.profile {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    display: flex;
+}
+.p{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(18, 192, 55);
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.profile h3{
+    margin-left: 40px;
+}
+
+.profile:active {
+    border : 2px solid black;
+}
+
+</style>
+<body>
+    <div class="main">
+        <h2>Users</h2>
+        <div class="nav">
+         <input type="text" placeholder="search users">
+         <button id="btn1">reputation</button>
+         <button id="btn2">new users</button>
+         <button id="btn3">voter</button>
+         <button id="btn4">editors</button>
+         <button id="btn5">moderators</button>
+        </div>
+        <div class="user">
+            <div class="user">
+                <div class="profile"><div class="p">U1</div><h3 id="pro1">1</h3></div>
+                <div class="profile"><div class="p">U2</div><h3 id="pro2">2</h3></div>
+                <div class="profile"><div class="p">U3</div><h3 id="pro3">3</h3></div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="./finalmock.js"> </script>
+</body>
+</html>

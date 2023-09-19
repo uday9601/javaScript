@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(42 48 52);
+    height: 105px;
+
+}
+.head h1{
+    color: white;
+}
+.head2 {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.head2 a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.37);
+}
+.head2 a:hover{
+    color: white;
+}
+.nav2{
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(45, 50, 52);
+}
+
+.navl{
+    color: rgba(255, 255, 255, 0.882);
+    position: absolute;
+    left: 100px;
+    bottom: 444px;
+
+}
+.navl p{
+    
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 1.25em;
+    padding-right: 1em;
+    margin: 0 0 1em 0;
+}
+.navl button{
+    background-color: red;
+    height: 53px;
+    color: white;
+    width: 186px;
+    border: none;
+    font-weight: bold;
+}
+.navr img{
+    position: absolute;
+    left: 750px;
+    bottom: 403px;
+    border: 4px solid white;
+}

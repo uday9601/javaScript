@@ -1,0 +1,44 @@
+.navbar{
+    height: 70px;
+    width: 1530px;
+    background-color: rgb(16, 16, 89);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav1 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.main1 {
+    background-image: url(https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/67351d5a-b913-4b49-bb2c-5ab12aa79722/b7ed3571-f518-4946-b610-70b1ee573b0e/1280x720/match/image.jpg);
+width: 100vw;
+height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.main5 button{
+background-color: red;
+color: white;
+width: 80px;
+height: 40px;
+border: none;
+
+}
+.main2 h1{
+    color: white;
+}
+.main3 {
+    color: rgba(255, 255, 255, 0.703);
+}
+.main4 button{
+    background-color:white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: red;
+}

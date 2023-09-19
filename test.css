@@ -1,0 +1,47 @@
+.a{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+}
+.nav3 button{
+    border-radius: 20px;
+}
+.nav1 select{
+    border: none;
+}
+.nav1 select{
+    margin-top: 10px;
+}
+.nav3 {
+margin-top: 10px;
+}
+.main{
+    background-image: url(https://bd.gaadicdn.com/processedimages/yamaha/mt-15-2-0/source/mt-15-2-062e4b1d700b63.jpg?tr=w-375);
+ height: 100vh;
+ width: 100vw;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.m1{
+    translate: 200px;
+    /* padding-top: 100px; */
+    position: relative;
+    top: 200px;
+}
+.m2 img{
+    position: relative;
+    top: 300px;
+    margin-left: 50px;
+    
+}
+.m2 img:hover{
+    transform: translateY(-50px);
+}
