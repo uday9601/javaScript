@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.big{
+    /* border: 2px solid rgb(177, 134, 134); */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    margin-top: 30px;
+    /* background-image: url("./blacktree.jpeg");
+    background-size: cover; */
+    background-color: black;
+    
+}
+form{
+    width: 40%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 1px double whitesmoke;
+    border-radius: 15px;
+    
+}
+form h1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form p{
+    color: rgb(219, 29, 29);
+    
+}
+input{
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+input:focus{
+    border: 1px solid red;
+    transition: 0.5ms;
+}
+button{
+    height: 35px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#btn:hover{
+    transition: 0.5ms;
+    background-color: rgb(216, 26, 57);
+    color:black;
+}
+p{
+    font-size: 13px;
+}

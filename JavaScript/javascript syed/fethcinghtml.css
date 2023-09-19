@@ -1,0 +1,33 @@
+
+.nm{
+    border: 2px solid red;
+    width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    background-color: aquamarine;
+    border: 2px solid rgb(45, 167, 127);
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.naimg{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(45, 167, 127);
+    border-radius: 5px;
+    background-color: rgb(85, 210, 168);
+}
